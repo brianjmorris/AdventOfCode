@@ -4,13 +4,6 @@ class DayThree:
         self.input_path = input_path
 
 
-    def method(self, param):
-        
-        result = ''
-
-        return result
-
-
     def get_common_item_type(self, first_compartment, second_compartment):
         for item in first_compartment:
             if item in second_compartment:
