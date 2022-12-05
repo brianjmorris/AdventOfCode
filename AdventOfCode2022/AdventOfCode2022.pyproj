@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>891baf3b-ce9a-4cca-a89d-f10f3bd954d2</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>DayFour.py</StartupFile>
+    <StartupFile>DayFive.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="DayFive.py" />
     <Compile Include="DayOne.py" />
     <Compile Include="DayFour.py" />
     <Compile Include="DayThree.py" />
@@ -34,6 +35,7 @@
     <Content Include="Input\DayOneInput.txt" />
     <Content Include="Input\DayThreeInput.txt" />
     <Content Include="Input\DayFourInput.txt" />
+    <Content Include="Input\DayFiveInput.txt" />
     <Content Include="Input\DayTwoInput.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
