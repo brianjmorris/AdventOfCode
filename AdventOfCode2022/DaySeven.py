@@ -8,7 +8,7 @@ class DaySeven:
 
     def get_small_dir_sum(self, root, max_threshold):
         
-        # check if node is a file with size > 0
+        # check if root is a file with size > 0
         if 0 < root.size:
             return 0, root.size 
         
@@ -32,7 +32,7 @@ class DaySeven:
 
     def get_smallest_dir_size(self, root, min_threshold=0):
         
-        # check if node is a file with size > 0
+        # check if root is a file with size > 0
         if 0 < root.size:
             return root.size
         
