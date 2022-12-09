@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>891baf3b-ce9a-4cca-a89d-f10f3bd954d2</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>DaySeven.py</StartupFile>
+    <StartupFile>DayEight.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -12,6 +12,8 @@
     <Name>AdventOfCode2022</Name>
     <RootNamespace>AdventOfCode2022</RootNamespace>
     <TestFramework>Pytest</TestFramework>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <InterpreterId>Global|PythonCore|3.10</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -25,11 +27,11 @@
     <Compile Include="DayFive.py" />
     <Compile Include="DayOne.py" />
     <Compile Include="DayFour.py" />
+    <Compile Include="DayEight.py" />
     <Compile Include="DaySeven.py" />
     <Compile Include="DaySix.py" />
     <Compile Include="DayThree.py" />
     <Compile Include="DayTwo.py" />
-    <Compile Include="DirectoryTree.py" />
     <Compile Include="DirectoryTreeNode.py" />
     <Compile Include="__init__.py" />
   </ItemGroup>
@@ -38,12 +40,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Input\DayOneInput.txt" />
+    <Content Include="Input\DayEightInput.txt" />
     <Content Include="Input\DaySevenInput.txt" />
     <Content Include="Input\DaySixInput.txt" />
     <Content Include="Input\DayThreeInput.txt" />
     <Content Include="Input\DayFourInput.txt" />
     <Content Include="Input\DayFiveInput.txt" />
     <Content Include="Input\DayTwoInput.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.10" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
